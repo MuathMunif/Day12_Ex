@@ -18,6 +18,19 @@ public class Main {
         System.out.println(circle);
         System.out.println("-------------------------");
 
+        Circle circle1 = new Circle("green",false , 3);
+        System.out.println("The Area of the Circle1 is : "+circle1.getArea());
+        System.out.println("The Perimeter of the Circle1 is : "+circle1.getPerimeter());
+        System.out.println("The color of Circle1 is : "+circle1.getColor());
+        circle1.setRadius(8);
+        System.out.println("After set the r :");
+        System.out.println("The Perimeter of the Circle is : "+circle1.getPerimeter());
+        System.out.println("The color of Circle is : "+circle1.getColor());
+        System.out.println(circle1);
+        System.out.println("-------------------------");
+
+
+
 
         //Rectangle
         Rectangle rectangle = new Rectangle("white",true,5,7);

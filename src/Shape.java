@@ -25,9 +25,8 @@ public class Shape {
         return filled;
     }
 
-    public String toString(){
-        return "";
+    @Override
+    public String toString() {
+        return "A Shape with color of " + color + " and filled is "+filled;
     }
-
-
 }
